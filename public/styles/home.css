@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    opacity: 0.8;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 81.95%, #DFE7FC 99.05%, #DFE7FC 100.86%), linear-gradient(0deg, rgba(227, 235, 255, 0.00) 0%, #B0CBFF 90.9%), url("https://s3-alpha-sig.figma.com/img/cb46/4952/df68850f6eb20d81d04761fd4d57b6fb?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PF5aOpukkNzNrJSqG3N5HsbIGJTRrPQ8pEq3e~O1ZgwjSxruIEFNGM6P2R2ZZ7zCDwt5hewD6OMo5V3198ZteoeCLuef98DHwfKmAewH-HjShDPpXGt9Mb7mZ2GgcIW8t4lBXfHdYPmF1oualkeRUlMlL-OXVwgwh0AjCJYI93D~UN2g0Bb8jQ-GT9iiVdyuJ9gmbzg184-cMx0K7MRSECZD7OHG6I97o0Wfuq8Ixz5K3bMLwkT2a84kWpbUaQzrk6GUNEP1Xf7iP5P-WV6kKLmaY4JIwwCPIilI8Fg0ZRpcKVvN9eYNGeTmskDmST1E-cR2uikePHsbUkaukAfA1Q__") lightgray 50% / cover no-repeat;
+}
+
+#smarter{
+    background: linear-gradient(90deg, #5A8ECC 0%, #4675C1 49.9%, #37A2BF 57.4%, #6198D1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120.999%;
+}
+
+.intro-text{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.learn-more-btn{
+    border-radius: 0.875rem;
+    background: var(--Dark, #191A23);
+    display: flex;
+    padding: 20px 26px;
+    align-items: flex-start;
+    gap: 0.625rem;
+}
