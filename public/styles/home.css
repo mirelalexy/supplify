@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background: #DFE7FC;
+}
+
 .main-container{
     width: 100%;
     height: 100vh;
@@ -72,4 +76,42 @@
 
 .nav-link{
     color:#191A23;
+}
+
+.main-mission-container{
+    margin-top: 5rem;
+}
+
+.mission-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-image{
+    width: 70%;
+    height: 50%;
+}
+
+.mission-card{
+    background: #C7D7F7;
+}
+
+.donation-guidelines{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.motto-donation{
+    border-radius: 0.625rem;
+    background: linear-gradient(90deg, #C7D7F7 25.9%, #37A2BF 100%);
+    width: 85%;
+}
+
+.motto-donation-text{
+    font-family: "Walter Turncoat";
+    font-size: 2rem;
 }
