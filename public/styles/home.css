@@ -159,3 +159,14 @@ body {
 .footer_button:hover {
     color: #6994da;
 }
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact{
+    background: #C7D7F7;
+}
