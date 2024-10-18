@@ -11,6 +11,10 @@ app.get("/", (req, res) => {
     res.render("index.ejs");
 });
 
+app.get("/signup.ejs", (req, res) => {
+    res.render("signup.ejs");
+});
+
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 });
