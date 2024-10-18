@@ -170,3 +170,9 @@ body {
 .contact{
     background: #C7D7F7;
 }
+
+.card-image{
+    object-fit: cover;
+    width: 256px;
+    height: 320px;
+}
